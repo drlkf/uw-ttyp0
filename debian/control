@@ -1,0 +1,18 @@
+Source: uw-ttyp0
+Section: fonts
+Priority: optional
+Maintainer: drlkf <drlkf@drlkf.net>
+Build-Depends:
+ debhelper-compat (= 13),
+ make,
+ perl,
+ xfonts-utils,
+ bdfresize
+
+Package: fonts-uw-ttyp0
+Architecture: any
+Description: UW ttyp0 is a family of monospaced bitmap fonts.
+ It covers most of the Latin and Cyrillic alphabet, Greek, Armenian, Georgian
+ (only Mkhedruli), Hebrew (without cantillation marks), Tifinagh, Thai, Braille,
+ most of IPA (but no UPA), standard punctuation, common symbols, some
+ mathematics, line graphics and a few dingbats (about 3800 Unicode characters).

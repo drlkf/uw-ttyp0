@@ -16,9 +16,13 @@ BDFTOREP        = $(PERL) bin/bdftorep
 BDF2PSF         = bdf2psf
 VTFONTCVT       = vtfontcvt
 
+BUILD           =
 PREFIX          = /usr
+INCLUDEDIR      = $(PREFIX)/include
+LIBDIR          = $(PREFIX)/lib
 BINDIR          = $(PREFIX)/bin
 MANDIR          = $(PREFIX)/man
+INFODIR         = $(PREFIX)/share/info/fonts-uw-ttyp0
 DOCDIR          = $(PREFIX)/share/doc/fonts-uw-ttyp0
 PCFDIR          = $(PREFIX)/share/fonts/X11/misc
 OTBDIR          = nodefault---default-is-determined-by-configure
@@ -44,6 +48,9 @@ CONSFBSDVTDIR   = $(PREFIX)/share/vt/fonts
 CONSFBSDSCDIR   = $(PREFIX)/share/syscons/fonts
 CONSNBSDDIR     = $(PREFIX)/src/sys/dev/wsfont
 CONSOBSDDIR     = $(PREFIX)/src/sys/dev/wsfont
+SYSCONFDIR      = /etc
+RUNSTATEDIR     = /run
+LOCALSTATEDIR   = /var
 
 
 # ------------------------------------------------------------------------

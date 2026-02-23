@@ -1,0 +1,9 @@
+Makefile
+debian/*.debhelper
+debian/files
+genbdf/
+genotb/
+genpcf/
+debian/debhelper*
+debian/fonts-uw-ttyp0/
+debian/fonts-uw-ttyp0.substvars
