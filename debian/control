@@ -7,6 +7,7 @@ Build-Depends:
  make,
  perl,
  xfonts-utils,
+ bdf2psf,
  bdfresize
 
 Package: fonts-uw-ttyp0
