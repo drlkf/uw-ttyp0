@@ -67,9 +67,6 @@ For installation:
 
   configure                configuration script
 
-  backup-config/           backup copies for TARGETS*.dat, VARIANTS.dat,
-                           Makefile.in
-
 
 Documentation and legal texts:
 
